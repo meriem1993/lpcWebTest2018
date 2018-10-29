@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,300');
+html,body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat' ,sans-serif;
+}
+
+/*TODO*/
+.lang-choice-container {
+    margin: auto;
+    width: 25%;
+    padding: 10px;
+}
+
+.lang-choice-container img{
+  margin-left: 30px;
+  padding-bottom: 20px;
+}
+
+
+.pot-name{
+  width: 100%;
+  text-align: center;
+  color: white;
+  z-index: 1000;
+  position: absolute;
+  bottom: 2px;
+}
+
+h1{
+  text-align: center;
+}
+
+.img{
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+
+.rectangleBlack{
+  z-index: 1000;
+  opacity: 0.4;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(00deg, rgb(49, 24, 24) 10%, rgba(150,150,150,0.2) 40%, rgba(255,255,255,0) 50%);
+}
+
+
+.cercle{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  top: 70px;
+}
+
+
+.col {
+  float: left;
+  width: 47%;
+  height: 200px;
+  margin-left: 10px;
+  margin-top: 20px;
+  position: relative;
+}
+.row {
+  margin: auto;
+  width: 80%;
+}
+
+a{
+  text-decoration: none;
+}
+.selected img{
+  border-bottom: solid 2px #ff04bb;
+}
